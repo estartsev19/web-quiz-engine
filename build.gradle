@@ -13,7 +13,8 @@ repositories {
 }
 
 war {
-    enabled=true
+    baseName = 'wqe'
+    version =  '0.0.1'
 }
 
 sourceSets.main.resources.srcDirs = ["src/resources"]
