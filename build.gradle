@@ -13,6 +13,7 @@ repositories {
 }
 
 war {
+    enabled = true
     baseName = 'wqe'
     version =  '0.0.1'
 }
